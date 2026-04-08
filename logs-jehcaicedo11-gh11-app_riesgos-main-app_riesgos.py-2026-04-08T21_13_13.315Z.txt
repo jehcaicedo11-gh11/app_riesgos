@@ -1,0 +1,135 @@
+
+[     UTC     ] Logs for appriesgos-9k94tpni5uymhx7hhbclny.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[21:09:49] 🖥 Provisioning machine...
+[21:09:49] 🎛 Preparing system...
+[21:09:49] ⛓ Spinning up manager process...
+[21:09:55] 🚀 Starting up repository: 'app_riesgos', branch: 'main', main module: 'app_riesgos.py'
+[21:09:55] 🐙 Cloning repository...
+[21:09:55] 🐙 Cloning into '/mount/src/app_riesgos'...
+
+[21:09:55] 🐙 Cloned repository!
+[21:09:55] 🐙 Pulling code changes from Github...
+[21:09:56] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.11.15 environment at /home/adminuser/venv
+Resolved 42 packages in 477ms
+Prepared 42 packages in 2.24s
+Installed 42 packages in 90ms
+ + altair==6.0.0
+ + attrs==26.1.0
+ + blinker==1.9.0
+ + cachetools==7.0.5
+ + certifi==2026.2.25
+ + charset-normalizer==3.4.7
+ + click==8.3.2
+ + gitdb==4.0.12
+ + gitpython==3.1.46
+ + idna==3.11
+ + jinja2==3.1.6
+ + joblib==1.5.3
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + markupsafe==3.0.3[2026-04-08 21:09:59.126965] 
+ + narwhals==2.19.0
+ + numpy==1.25.2
+ + packaging==26.0
+ + pandas==[2026-04-08 21:09:59.127149] 2.3.3
+ + pillow==12.2.0
+ + protobuf==6.33.6
+ + pyarrow==23.0.1
+ + pydeck==0.9.1
+ + python-dateutil==2.9.0.post0
+ + pytz==2026.1.post1
+ + referencing==0.37.0
+ + requests==2.33.1
+ + rpds-py==0.30.0
+ + scikit-learn==1.8.0
+ + scipy==1.16.3
+ + six==1.17.0
+ + smmap==[2026-04-08 21:09:59.127462] 5.0.3
+ + streamlit==1.55.0
+ + streamlit-echarts==0.6.0
+ + tenacity==9.1.4
+ + threadpoolctl==3.6.0
+ + toml==0.10.2
+ + [2026-04-08 21:09:59.127571] tornado==6.5.5
+ + typing-extensions==4.15.0
+ + tzdata==2026.1
+ + urllib3==2.6.3
+ + watchdog==6.0.0
+Checking if Streamlit is installed
+Found Streamlit version 1.55.0 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.11.15 environment at /home/adminuser/venv
+Resolved 4 packages in 140ms
+Prepared 4 packages in 135ms
+Installed 4 packages in 14ms
+ + markdown-it-py==4.0.0
+ [2026-04-08 21:10:00.513662] + mdurl==0.1.2
+ + pygments==2.20.0
+ + rich==14.3.3
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[21:10:00] 🐍 Python dependencies were installed from /mount/src/app_riesgos/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[21:10:02] 📦 Processed dependencies!
+
+
+
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator OneHotEncoder from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator OrdinalEncoder from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator Binarizer from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator MinMaxScaler from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator ColumnTransformer from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator LogisticRegression from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/adminuser/venv/lib/python3.11/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator Pipeline from version 1.0.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:129 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:689 in code_to_exec                                     
+                                                                                
+  /mount/src/app_riesgos/app_riesgos.py:71 in <module>                          
+                                                                                
+     68 │   "CALCULAR RIESGO"                                                   
+     69 ):  # si el usuario, sí hace click en el botón, entonces se ejecuta el  
+     70 │   # Ejecutar el scoring                                               
+  ❱  71 │   EL = ejecutar_modelos(registro)                                     
+     72 │                                                                       
+     73 │   # Calcular los kpis                                                 
+     74 │   kpi_pd = int(EL.pd * 100)                                           
+                                                                                
+  /mount/src/app_riesgos/codigo_de_ejecucion.py:46 in ejecutar_modelos          
+                                                                                
+    43 │      pipe_ejecucion_pd = pickle.load(file)                             
+    44 │                                                                        
+    45 │   with open('pipe_ejecucion_ead.pickle', mode='rb') as file:           
+  ❱ 46 │      pipe_ejecucion_ead = pickle.load(file)                            
+    47 │                                                                        
+    48 │   with open('pipe_ejecucion_lgd.pickle', mode='rb') as file:           
+    49 │      pipe_ejecucion_lgd = pickle.load(file)                            
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 
+'sklearn.ensemble._hist_gradient_boosting.loss'
